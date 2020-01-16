@@ -1,0 +1,25 @@
+.about-sec iframe {
+    width: 360px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+.about-sec p {
+    padding: 15px;
+}
+
+/*** contact style** **/
+.contact-main {
+    height: 900px;
+    width: 90%;
+    margin-top: 90px;
+}
+
+.contact-sec {
+    height: 600px;
+    width: 48%;
+    float: left;
+    border: rgb(43, 92, 226);
+    margin-left: 20px;
+
+}

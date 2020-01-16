@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap');
+
+.about-main {
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.about-section {
+    width: 31%;
+    height: 750px;
+    float: left;
+    border: 1px solid rgb(43, 70, 228);
+    margin-left: 2%;
+}
+/* section text/about */
+.about-section p {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.about-img {
+    height: 400px;
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+
+}
+/* section audio */
+.about-audio {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+/* section video */
+.about-section iframe {
+    width: 360px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+}
+.about-section {
+    padding: 20px;
+}

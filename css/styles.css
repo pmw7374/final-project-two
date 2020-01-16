@@ -1,0 +1,133 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav-bar {
+    background-color: rgb(16, 39, 240);
+    height: 86px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 86px;
+}
+.nav-list {
+    float: right;
+    padding-top: 20px;
+}
+
+.list-item {
+    height: 27px;
+    width: 52px;
+    display: inline-block;
+    /* list-style-type: none;
+    float: left; */
+    color: white;
+    list-style-type: bold;
+    margin-right: 20px;
+    padding: 3px;
+    text-align: center;
+}
+a{
+    border: 1px solid rgb(245, 231, 32);
+    border-radius: 10px;
+}
+
+a:hover{
+    background-color: rgb(245, 231, 32);
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+.main{
+    height: 340px;
+    width: 100%;
+    background-image: url('/img/cropped-Downtown-Fresno-by-RC-Jones.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-text{
+    height: 110px;
+    width: 246px;
+    background-color: rgb(245, 231, 32);
+    border:blue 3px solid;
+    position: absolute;
+    top: 139px;
+    left: 555px;
+    margin-top: 17px;
+    text-align: center;
+}
+/******main section****/
+.home-section{
+    height: 500px;
+    width: 100%;
+}
+    
+.col{
+        height: 450px;
+        width: 46%;
+        border: blue 3px solid;
+        float: left;
+        margin-left: 30px;
+        margin-top: 25px;
+    }
+    .marketing-img {
+        height: 580px;
+        width: 450px;
+    }
+.marketing {  
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.sec-text p {
+    text-align: center;
+    margin: 50px 20px 0px 20px;
+    margin-top: 12px;
+}
+/* *****footer styles*****/
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(184, 185, 221);
+    clear: both;
+    color: aliceblue;
+}
+.button-input, .social, .copy {
+    width:33.3%;
+    float: left;
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+.button-input, .social {
+    margin-top: 25px;
+   
+}
+button {
+    padding: 7px;
+    border-radius: 4px;
+
+}
+iput {
+    height: 22px;
+    width: 120px;
+}
+.fab {
+    font-size: 2em;
+}
+.copy {
+    display: inline-block;
+    width: 320px;
+    margin-top: 15px;
+}
